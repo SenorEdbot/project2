@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    const Employee = sequelize.define('Employee', {
+    const Employees = sequelize.define('Employees', {
       name: DataTypes.STRING,
       phone: DataTypes.INTEGER,
       email: DataTypes.STRING,
@@ -7,5 +7,5 @@ module.exports = function(sequelize, DataTypes) {
       role: DataTypes.STRING
 
     });
-    return Employee;
+    return Employees;
   };
