@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
     role: DataTypes.STRING,
     covered: DataTypes.BOOLEAN,
     priority: DataTypes.STRING,
-    personResponsible: DataTypes.SRING
+    personResponsible: DataTypes.STRING
   });
-  return Example;
+  return Shifts;
 };
