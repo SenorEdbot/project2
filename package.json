@@ -22,7 +22,8 @@
     "express": "^4.16.4",
     "if-env": "^1.0.4",
     "mysql2": "^1.6.4",
-    "sequelize": "^4.41.2"
+    "sequelize": "^4.41.2",
+    "yarn": "^1.12.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
