@@ -9,5 +9,5 @@ module.exports = function(sequelize, DataTypes) {
     priority: DataTypes.STRING,
     personResponsible: DataTypes.SRING
   });
-  return Example;
+  return Shifts;
 };
